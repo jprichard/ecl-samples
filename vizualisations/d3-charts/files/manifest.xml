@@ -1,0 +1,10 @@
+<Manifest>
+	<Resource type="XSLT" filename="json_chart_data.xslt"/>
+	<Resource type="XSLT" filename="table.xslt"/>
+    <Resource type="XSLT" filename="stream.xslt"/>
+    <Resource type="XSLT" filename="voronoi.xslt"/>
+    <Resource type="XSLT" filename="charts_view.xslt" name="chartResults"/>
+    <Views>
+		<Results name="d3 Chart by name" resource="chartResults" type="XSLT"/>
+	</Views>
+</Manifest>
